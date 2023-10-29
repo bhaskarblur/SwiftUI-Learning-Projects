@@ -37,7 +37,7 @@ struct facebookHome: View {
                         }
                         
                         ScrollView(.vertical, showsIndicators: false) {
-                            VStack(spacing: 12) {
+                            VStack(spacing: 8) {
                             
                                 fbPost(pfp: "person1", name: "Mark Zukky", content: "Hope you're all have a great weekend and you're enjoying India Vs England", dateJoined: "12 Minutes")
                                 
@@ -47,7 +47,7 @@ struct facebookHome: View {
                                 
                                 fbPost(pfp: "story2", name: "Ollie Carter", content: "Hope you're all have a great weekend and you're enjoying India Vs England", dateJoined: "1 Day")
                                 
-                            }.padding()
+                            }.padding(0)
                         }
                     }
                     }
@@ -119,30 +119,28 @@ struct fbPost : View {
     var body : some View {
         
         ZStack {
-            Color(.systemGray5)
+            Color(.systemBackground)
             VStack {
              
-                
                 HStack {
                     Image(pfp)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 48, height: 48, alignment: .center)
+                        .frame(width: 44, height: 44, alignment: .center)
                         .foregroundColor(Color(.secondaryLabel))
                         .cornerRadius(36)
                     
-                    Spacer().frame(width: 12)
+                    Spacer().frame(width: 10)
                     
                     VStack(alignment: .leading) {
                         Text(name)
                             .frame(alignment: .top)
-                            .foregroundColor(Color(facebookColor))
                             .font(.system(size: 17, weight: .semibold))
-                        Spacer().frame(height: 8)
+                        Spacer().frame(height: 4)
                         
                         Text("\(dateJoined) Ago")
                             .frame(alignment: .leading)
-                            .font(.system(size: 14, weight: .none))
+                            .font(.system(size: 13, weight: .none))
                             .foregroundColor(Color(.secondaryLabel))
                         
                         
@@ -151,38 +149,38 @@ struct fbPost : View {
                     
                 }
                 
-                    Spacer().frame(height: 20)
+                    Spacer().frame(height: 16)
                 HStack {
                     Text(content)
                         .frame(alignment: .topLeading)
-                        .font(.system(size: 16, weight: .none))
+                        .font(.system(size: 17, weight: .none))
                     Spacer()
                 }.padding(2)
           
-                Spacer().frame(height: 20)
+                Spacer().frame(height: 16)
                 HStack {
 
                     Text("Like")
                         .frame(alignment: .top)
                         .foregroundColor(Color(facebookColor))
-                        .font(.system(size: 15, weight: .semibold))
+                        .font(.system(size: 14, weight: .semibold))
                     Spacer()
                     Text("Comment")
                         .frame(alignment: .top)
                         .foregroundColor(Color(facebookColor))
-                        .font(.system(size: 15, weight: .semibold))
+                        .font(.system(size: 14, weight: .semibold))
                     
                     Spacer()
                     Text("Share")
                         .frame(alignment: .top)
                         .foregroundColor(Color(facebookColor))
-                        .font(.system(size: 15, weight: .semibold))
+                        .font(.system(size: 14, weight: .semibold))
 
-                }
+                }.padding(2)
                 Spacer()
 
             }.padding()
-        }.cornerRadius(8)
+        }
     };
 }
 #Preview {
