@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		8C4B0EEC2AEECC28003A4C9F /* swiftuilearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B0EEB2AEECC28003A4C9F /* swiftuilearningApp.swift */; };
-		8C4B0EEE2AEECC28003A4C9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B0EED2AEECC28003A4C9F /* ContentView.swift */; };
 		8C4B0EF02AEECC2B003A4C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4B0EEF2AEECC2B003A4C9F /* Assets.xcassets */; };
 		8C4B0EF32AEECC2B003A4C9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4B0EF22AEECC2B003A4C9F /* Preview Assets.xcassets */; };
-		8C4B0EF52AEECC2B003A4C9F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B0EF42AEECC2B003A4C9F /* Persistence.swift */; };
-		8C4B0EF82AEECC2B003A4C9F /* swiftuilearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B0EF62AEECC2B003A4C9F /* swiftuilearning.xcdatamodeld */; };
+		8C4B0F062AEECE74003A4C9F /* ContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B0F052AEECE73003A4C9F /* ContextView.swift */; };
+		8C4B0F082AEEE3A7003A4C9F /* facebookHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B0F072AEEE3A7003A4C9F /* facebookHome.swift */; };
+		8C4B0F0A2AEEEAE1003A4C9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4B0F092AEEEAE1003A4C9F /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C4B0EE82AEECC28003A4C9F /* swiftuilearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuilearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4B0EEB2AEECC28003A4C9F /* swiftuilearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuilearningApp.swift; sourceTree = "<group>"; };
-		8C4B0EED2AEECC28003A4C9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C4B0EEF2AEECC2B003A4C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C4B0EF22AEECC2B003A4C9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8C4B0EF42AEECC2B003A4C9F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		8C4B0EF72AEECC2B003A4C9F /* swiftuilearning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = swiftuilearning.xcdatamodel; sourceTree = "<group>"; };
+		8C4B0F052AEECE73003A4C9F /* ContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextView.swift; sourceTree = "<group>"; };
+		8C4B0F072AEEE3A7003A4C9F /* facebookHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookHome.swift; sourceTree = "<group>"; };
+		8C4B0F092AEEEAE1003A4C9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +55,12 @@
 		8C4B0EEA2AEECC28003A4C9F /* swiftuilearning */ = {
 			isa = PBXGroup;
 			children = (
+				8C4B0F092AEEEAE1003A4C9F /* Images.xcassets */,
 				8C4B0EEB2AEECC28003A4C9F /* swiftuilearningApp.swift */,
-				8C4B0EED2AEECC28003A4C9F /* ContentView.swift */,
 				8C4B0EEF2AEECC2B003A4C9F /* Assets.xcassets */,
-				8C4B0EF42AEECC2B003A4C9F /* Persistence.swift */,
-				8C4B0EF62AEECC2B003A4C9F /* swiftuilearning.xcdatamodeld */,
 				8C4B0EF12AEECC2B003A4C9F /* Preview Content */,
+				8C4B0F052AEECE73003A4C9F /* ContextView.swift */,
+				8C4B0F072AEEE3A7003A4C9F /* facebookHome.swift */,
 			);
 			path = swiftuilearning;
 			sourceTree = "<group>";
@@ -131,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4B0F0A2AEEEAE1003A4C9F /* Images.xcassets in Resources */,
 				8C4B0EF32AEECC2B003A4C9F /* Preview Assets.xcassets in Resources */,
 				8C4B0EF02AEECC2B003A4C9F /* Assets.xcassets in Resources */,
 			);
@@ -143,10 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C4B0EF52AEECC2B003A4C9F /* Persistence.swift in Sources */,
-				8C4B0EEE2AEECC28003A4C9F /* ContentView.swift in Sources */,
+				8C4B0F062AEECE74003A4C9F /* ContextView.swift in Sources */,
+				8C4B0F082AEEE3A7003A4C9F /* facebookHome.swift in Sources */,
 				8C4B0EEC2AEECC28003A4C9F /* swiftuilearningApp.swift in Sources */,
-				8C4B0EF82AEECC2B003A4C9F /* swiftuilearning.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,19 +350,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		8C4B0EF62AEECC2B003A4C9F /* swiftuilearning.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8C4B0EF72AEECC2B003A4C9F /* swiftuilearning.xcdatamodel */,
-			);
-			currentVersion = 8C4B0EF72AEECC2B003A4C9F /* swiftuilearning.xcdatamodel */;
-			path = swiftuilearning.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 8C4B0EE02AEECC28003A4C9F /* Project object */;
 }
