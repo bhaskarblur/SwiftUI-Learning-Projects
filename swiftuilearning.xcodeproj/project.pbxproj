@@ -13,6 +13,8 @@
 		8C4B0F062AEECE74003A4C9F /* ContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B0F052AEECE73003A4C9F /* ContextView.swift */; };
 		8C4B0F082AEEE3A7003A4C9F /* facebookHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B0F072AEEE3A7003A4C9F /* facebookHome.swift */; };
 		8C4B0F0A2AEEEAE1003A4C9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4B0F092AEEEAE1003A4C9F /* Images.xcassets */; };
+		8CC8F97B2AEF96920042A0A2 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8F97A2AEF96920042A0A2 /* AppStore.swift */; };
+		8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		8C4B0F052AEECE73003A4C9F /* ContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextView.swift; sourceTree = "<group>"; };
 		8C4B0F072AEEE3A7003A4C9F /* facebookHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookHome.swift; sourceTree = "<group>"; };
 		8C4B0F092AEEEAE1003A4C9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CC8F97A2AEF96920042A0A2 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				8C4B0EF12AEECC2B003A4C9F /* Preview Content */,
 				8C4B0F052AEECE73003A4C9F /* ContextView.swift */,
 				8C4B0F072AEEE3A7003A4C9F /* facebookHome.swift */,
+				8CC8F97A2AEF96920042A0A2 /* AppStore.swift */,
+				8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */,
 			);
 			path = swiftuilearning;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			files = (
 				8C4B0F062AEECE74003A4C9F /* ContextView.swift in Sources */,
 				8C4B0F082AEEE3A7003A4C9F /* facebookHome.swift in Sources */,
+				8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */,
 				8C4B0EEC2AEECC28003A4C9F /* swiftuilearningApp.swift in Sources */,
+				8CC8F97B2AEF96920042A0A2 /* AppStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
