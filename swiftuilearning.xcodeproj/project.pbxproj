@@ -15,7 +15,42 @@
 		8C4B0F0A2AEEEAE1003A4C9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4B0F092AEEEAE1003A4C9F /* Images.xcassets */; };
 		8CC8F97B2AEF96920042A0A2 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8F97A2AEF96920042A0A2 /* AppStore.swift */; };
 		8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */; };
+		8CC8F9802AEFA94F0042A0A2 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 8CC8F97F2AEFA94F0042A0A2 /* SwiftUICharts */; };
+		8CE8F0862AEFB14E00D1F6D7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE8F0852AEFB14D00D1F6D7 /* WidgetKit.framework */; };
+		8CE8F0882AEFB14E00D1F6D7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE8F0872AEFB14E00D1F6D7 /* SwiftUI.framework */; };
+		8CE8F08B2AEFB14E00D1F6D7 /* My_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F08A2AEFB14E00D1F6D7 /* My_WidgetBundle.swift */; };
+		8CE8F08D2AEFB14E00D1F6D7 /* My_WidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F08C2AEFB14E00D1F6D7 /* My_WidgetLiveActivity.swift */; };
+		8CE8F08F2AEFB14E00D1F6D7 /* My_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F08E2AEFB14E00D1F6D7 /* My_Widget.swift */; };
+		8CE8F0912AEFB14E00D1F6D7 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F0902AEFB14E00D1F6D7 /* AppIntent.swift */; };
+		8CE8F0932AEFB14F00D1F6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8F0922AEFB14F00D1F6D7 /* Assets.xcassets */; };
+		8CE8F0972AEFB14F00D1F6D7 /* My WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8CE8F0832AEFB14D00D1F6D7 /* My WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8CE8F09D2AEFBED200D1F6D7 /* widgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F09C2AEFBED200D1F6D7 /* widgetViewController.swift */; };
+		8CE8F09F2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F09E2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CE8F0952AEFB14F00D1F6D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4B0EE02AEECC28003A4C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE8F0822AEFB14D00D1F6D7;
+			remoteInfo = "My WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CE8F0982AEFB14F00D1F6D7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8CE8F0972AEFB14F00D1F6D7 /* My WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8C4B0EE82AEECC28003A4C9F /* swiftuilearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuilearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +62,19 @@
 		8C4B0F092AEEEAE1003A4C9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8CC8F97A2AEF96920042A0A2 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartsView.swift; sourceTree = "<group>"; };
+		8CE8F0832AEFB14D00D1F6D7 /* My WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "My WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE8F0852AEFB14D00D1F6D7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8CE8F0872AEFB14E00D1F6D7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8CE8F08A2AEFB14E00D1F6D7 /* My_WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_WidgetBundle.swift; sourceTree = "<group>"; };
+		8CE8F08C2AEFB14E00D1F6D7 /* My_WidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_WidgetLiveActivity.swift; sourceTree = "<group>"; };
+		8CE8F08E2AEFB14E00D1F6D7 /* My_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Widget.swift; sourceTree = "<group>"; };
+		8CE8F0902AEFB14E00D1F6D7 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		8CE8F0922AEFB14F00D1F6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CE8F0942AEFB14F00D1F6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE8F09C2AEFBED200D1F6D7 /* widgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetViewController.swift; sourceTree = "<group>"; };
+		8CE8F09E2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWidgetScreen.swift; sourceTree = "<group>"; };
+		8CE8F0A02AEFC8FC00D1F6D7 /* swiftuilearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftuilearning.entitlements; sourceTree = "<group>"; };
+		8CE8F0A12AEFC92200D1F6D7 /* My WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "My WidgetExtension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +82,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC8F9802AEFA94F0042A0A2 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE8F0802AEFB14D00D1F6D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE8F0882AEFB14E00D1F6D7 /* SwiftUI.framework in Frameworks */,
+				8CE8F0862AEFB14E00D1F6D7 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +101,10 @@
 		8C4B0EDF2AEECC28003A4C9F = {
 			isa = PBXGroup;
 			children = (
+				8CE8F0A12AEFC92200D1F6D7 /* My WidgetExtension.entitlements */,
 				8C4B0EEA2AEECC28003A4C9F /* swiftuilearning */,
+				8CE8F0892AEFB14E00D1F6D7 /* My Widget */,
+				8CE8F0842AEFB14D00D1F6D7 /* Frameworks */,
 				8C4B0EE92AEECC28003A4C9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				8C4B0EE82AEECC28003A4C9F /* swiftuilearning.app */,
+				8CE8F0832AEFB14D00D1F6D7 /* My WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +121,7 @@
 		8C4B0EEA2AEECC28003A4C9F /* swiftuilearning */ = {
 			isa = PBXGroup;
 			children = (
+				8CE8F0A02AEFC8FC00D1F6D7 /* swiftuilearning.entitlements */,
 				8C4B0F092AEEEAE1003A4C9F /* Images.xcassets */,
 				8C4B0EEB2AEECC28003A4C9F /* swiftuilearningApp.swift */,
 				8C4B0EEF2AEECC2B003A4C9F /* Assets.xcassets */,
@@ -67,6 +130,8 @@
 				8C4B0F072AEEE3A7003A4C9F /* facebookHome.swift */,
 				8CC8F97A2AEF96920042A0A2 /* AppStore.swift */,
 				8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */,
+				8CE8F09C2AEFBED200D1F6D7 /* widgetViewController.swift */,
+				8CE8F09E2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift */,
 			);
 			path = swiftuilearning;
 			sourceTree = "<group>";
@@ -79,6 +144,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8CE8F0842AEFB14D00D1F6D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CE8F0852AEFB14D00D1F6D7 /* WidgetKit.framework */,
+				8CE8F0872AEFB14E00D1F6D7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CE8F0892AEFB14E00D1F6D7 /* My Widget */ = {
+			isa = PBXGroup;
+			children = (
+				8CE8F08A2AEFB14E00D1F6D7 /* My_WidgetBundle.swift */,
+				8CE8F08C2AEFB14E00D1F6D7 /* My_WidgetLiveActivity.swift */,
+				8CE8F08E2AEFB14E00D1F6D7 /* My_Widget.swift */,
+				8CE8F0902AEFB14E00D1F6D7 /* AppIntent.swift */,
+				8CE8F0922AEFB14F00D1F6D7 /* Assets.xcassets */,
+				8CE8F0942AEFB14F00D1F6D7 /* Info.plist */,
+			);
+			path = "My Widget";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,15 +176,37 @@
 				8C4B0EE42AEECC28003A4C9F /* Sources */,
 				8C4B0EE52AEECC28003A4C9F /* Frameworks */,
 				8C4B0EE62AEECC28003A4C9F /* Resources */,
+				8CE8F0982AEFB14F00D1F6D7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CE8F0962AEFB14F00D1F6D7 /* PBXTargetDependency */,
+			);
+			name = swiftuilearning;
+			packageProductDependencies = (
+				8CC8F97F2AEFA94F0042A0A2 /* SwiftUICharts */,
+			);
+			productName = swiftuilearning;
+			productReference = 8C4B0EE82AEECC28003A4C9F /* swiftuilearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CE8F0822AEFB14D00D1F6D7 /* My WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE8F09B2AEFB14F00D1F6D7 /* Build configuration list for PBXNativeTarget "My WidgetExtension" */;
+			buildPhases = (
+				8CE8F07F2AEFB14D00D1F6D7 /* Sources */,
+				8CE8F0802AEFB14D00D1F6D7 /* Frameworks */,
+				8CE8F0812AEFB14D00D1F6D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = swiftuilearning;
-			productName = swiftuilearning;
-			productReference = 8C4B0EE82AEECC28003A4C9F /* swiftuilearning.app */;
-			productType = "com.apple.product-type.application";
+			name = "My WidgetExtension";
+			productName = "My WidgetExtension";
+			productReference = 8CE8F0832AEFB14D00D1F6D7 /* My WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -112,6 +221,9 @@
 					8C4B0EE72AEECC28003A4C9F = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
+					8CE8F0822AEFB14D00D1F6D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C4B0EE32AEECC28003A4C9F /* Build configuration list for PBXProject "swiftuilearning" */;
@@ -123,11 +235,15 @@
 				Base,
 			);
 			mainGroup = 8C4B0EDF2AEECC28003A4C9F;
+			packageReferences = (
+				8CC8F97E2AEFA94F0042A0A2 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 8C4B0EE92AEECC28003A4C9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8C4B0EE72AEECC28003A4C9F /* swiftuilearning */,
+				8CE8F0822AEFB14D00D1F6D7 /* My WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -143,6 +259,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CE8F0812AEFB14D00D1F6D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE8F0932AEFB14F00D1F6D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -150,15 +274,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE8F09D2AEFBED200D1F6D7 /* widgetViewController.swift in Sources */,
 				8C4B0F062AEECE74003A4C9F /* ContextView.swift in Sources */,
 				8C4B0F082AEEE3A7003A4C9F /* facebookHome.swift in Sources */,
 				8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */,
 				8C4B0EEC2AEECC28003A4C9F /* swiftuilearningApp.swift in Sources */,
+				8CE8F09F2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift in Sources */,
 				8CC8F97B2AEF96920042A0A2 /* AppStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CE8F07F2AEFB14D00D1F6D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE8F08D2AEFB14E00D1F6D7 /* My_WidgetLiveActivity.swift in Sources */,
+				8CE8F0912AEFB14E00D1F6D7 /* AppIntent.swift in Sources */,
+				8CE8F08B2AEFB14E00D1F6D7 /* My_WidgetBundle.swift in Sources */,
+				8CE8F08F2AEFB14E00D1F6D7 /* My_Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CE8F0962AEFB14F00D1F6D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE8F0822AEFB14D00D1F6D7 /* My WidgetExtension */;
+			targetProxy = 8CE8F0952AEFB14F00D1F6D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8C4B0EF92AEECC2B003A4C9F /* Debug */ = {
@@ -283,11 +428,14 @@
 		8C4B0EFC2AEECC2B003A4C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = swiftuilearning/swiftuilearning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuilearning/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,11 +459,14 @@
 		8C4B0EFD2AEECC2B003A4C9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = swiftuilearning/swiftuilearning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuilearning/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -330,6 +481,62 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bhaskar.swiftuilearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CE8F0992AEFB14F00D1F6D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "My WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhaskar.swiftuilearning.My-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CE8F09A2AEFB14F00D1F6D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "My WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhaskar.swiftuilearning.My-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,7 +564,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8CE8F09B2AEFB14F00D1F6D7 /* Build configuration list for PBXNativeTarget "My WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE8F0992AEFB14F00D1F6D7 /* Debug */,
+				8CE8F09A2AEFB14F00D1F6D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8CC8F97E2AEFA94F0042A0A2 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CC8F97F2AEFA94F0042A0A2 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CC8F97E2AEFA94F0042A0A2 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8C4B0EE02AEECC28003A4C9F /* Project object */;
 }

@@ -12,7 +12,7 @@ struct swiftuilearningApp: App {
 
     var body: some Scene {
         WindowGroup {
-            AppStore()
+            SwiftWidgetScreen()
         }
     }
 }
