@@ -26,6 +26,7 @@
 		8CE8F0972AEFB14F00D1F6D7 /* My WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8CE8F0832AEFB14D00D1F6D7 /* My WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8CE8F09D2AEFBED200D1F6D7 /* widgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F09C2AEFBED200D1F6D7 /* widgetViewController.swift */; };
 		8CE8F09F2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F09E2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift */; };
+		8CE8F0A32AEFD06800D1F6D7 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F0A22AEFD06800D1F6D7 /* ToDoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		8CE8F09E2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWidgetScreen.swift; sourceTree = "<group>"; };
 		8CE8F0A02AEFC8FC00D1F6D7 /* swiftuilearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftuilearning.entitlements; sourceTree = "<group>"; };
 		8CE8F0A12AEFC92200D1F6D7 /* My WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "My WidgetExtension.entitlements"; sourceTree = "<group>"; };
+		8CE8F0A22AEFD06800D1F6D7 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */,
 				8CE8F09C2AEFBED200D1F6D7 /* widgetViewController.swift */,
 				8CE8F09E2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift */,
+				8CE8F0A22AEFD06800D1F6D7 /* ToDoListView.swift */,
 			);
 			path = swiftuilearning;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				8CE8F09D2AEFBED200D1F6D7 /* widgetViewController.swift in Sources */,
 				8C4B0F062AEECE74003A4C9F /* ContextView.swift in Sources */,
+				8CE8F0A32AEFD06800D1F6D7 /* ToDoListView.swift in Sources */,
 				8C4B0F082AEEE3A7003A4C9F /* facebookHome.swift in Sources */,
 				8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */,
 				8C4B0EEC2AEECC28003A4C9F /* swiftuilearningApp.swift in Sources */,

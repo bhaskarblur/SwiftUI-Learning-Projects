@@ -19,7 +19,7 @@ struct Provider: AppIntentTimelineProvider {
     
     func timeline(for configuration: ConfigurationAppIntent, in context: Context) async -> Timeline<SimpleEntry> {
         var entries: [SimpleEntry] = []
-        var userDefaults = UserDefaults(suiteName: "group.widgetcache")
+        let userDefaults = UserDefaults(suiteName: "group.widgetcache")
         let text = userDefaults?.value(forKey: "text") ?? "No Text"
 
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
