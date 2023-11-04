@@ -15,6 +15,10 @@
 		8C4B0F0A2AEEEAE1003A4C9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4B0F092AEEEAE1003A4C9F /* Images.xcassets */; };
 		8C5C6B752AF4DAC300ABF08B /* signUpForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C6B742AF4DAC300ABF08B /* signUpForm.swift */; };
 		8C5C6B772AF4E6C300ABF08B /* bottomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C6B762AF4E6C300ABF08B /* bottomNavigation.swift */; };
+		8C5C6B7A2AF4EEA300ABF08B /* lottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C6B792AF4EEA300ABF08B /* lottieView.swift */; };
+		8C5C6B7C2AF4F03400ABF08B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8C5C6B7B2AF4F03400ABF08B /* Lottie */; };
+		8C5C6B802AF4F1EB00ABF08B /* lottieLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C6B7F2AF4F1EB00ABF08B /* lottieLoading.swift */; };
+		8C5C6B822AF4F2EB00ABF08B /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C5C6B812AF4F2EB00ABF08B /* loading.json */; };
 		8CC8F97B2AEF96920042A0A2 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8F97A2AEF96920042A0A2 /* AppStore.swift */; };
 		8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */; };
 		8CC8F9802AEFA94F0042A0A2 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 8CC8F97F2AEFA94F0042A0A2 /* SwiftUICharts */; };
@@ -65,6 +69,9 @@
 		8C4B0F092AEEEAE1003A4C9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8C5C6B742AF4DAC300ABF08B /* signUpForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpForm.swift; sourceTree = "<group>"; };
 		8C5C6B762AF4E6C300ABF08B /* bottomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomNavigation.swift; sourceTree = "<group>"; };
+		8C5C6B792AF4EEA300ABF08B /* lottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottieView.swift; sourceTree = "<group>"; };
+		8C5C6B7F2AF4F1EB00ABF08B /* lottieLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottieLoading.swift; sourceTree = "<group>"; };
+		8C5C6B812AF4F2EB00ABF08B /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = loading.json; path = ../../../../Downloads/loading.json; sourceTree = "<group>"; };
 		8CC8F97A2AEF96920042A0A2 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartsView.swift; sourceTree = "<group>"; };
 		8CE8F0832AEFB14D00D1F6D7 /* My WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "My WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +96,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC8F9802AEFA94F0042A0A2 /* SwiftUICharts in Frameworks */,
+				8C5C6B7C2AF4F03400ABF08B /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +141,7 @@
 				8C4B0EEF2AEECC2B003A4C9F /* Assets.xcassets */,
 				8C4B0EF12AEECC2B003A4C9F /* Preview Content */,
 				8C4B0F052AEECE73003A4C9F /* ContextView.swift */,
+				8C5C6B812AF4F2EB00ABF08B /* loading.json */,
 				8C4B0F072AEEE3A7003A4C9F /* facebookHome.swift */,
 				8CC8F97A2AEF96920042A0A2 /* AppStore.swift */,
 				8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */,
@@ -141,6 +150,8 @@
 				8CE8F0A22AEFD06800D1F6D7 /* ToDoListView.swift */,
 				8C5C6B742AF4DAC300ABF08B /* signUpForm.swift */,
 				8C5C6B762AF4E6C300ABF08B /* bottomNavigation.swift */,
+				8C5C6B792AF4EEA300ABF08B /* lottieView.swift */,
+				8C5C6B7F2AF4F1EB00ABF08B /* lottieLoading.swift */,
 			);
 			path = swiftuilearning;
 			sourceTree = "<group>";
@@ -195,6 +206,7 @@
 			name = swiftuilearning;
 			packageProductDependencies = (
 				8CC8F97F2AEFA94F0042A0A2 /* SwiftUICharts */,
+				8C5C6B7B2AF4F03400ABF08B /* Lottie */,
 			);
 			productName = swiftuilearning;
 			productReference = 8C4B0EE82AEECC28003A4C9F /* swiftuilearning.app */;
@@ -246,6 +258,7 @@
 			mainGroup = 8C4B0EDF2AEECC28003A4C9F;
 			packageReferences = (
 				8CC8F97E2AEFA94F0042A0A2 /* XCRemoteSwiftPackageReference "ChartView" */,
+				8C5C6B782AF4EDE300ABF08B /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 8C4B0EE92AEECC28003A4C9F /* Products */;
 			projectDirPath = "";
@@ -264,6 +277,7 @@
 			files = (
 				8C4B0F0A2AEEEAE1003A4C9F /* Images.xcassets in Resources */,
 				8C4B0EF32AEECC2B003A4C9F /* Preview Assets.xcassets in Resources */,
+				8C5C6B822AF4F2EB00ABF08B /* loading.json in Resources */,
 				8C4B0EF02AEECC2B003A4C9F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,8 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5C6B772AF4E6C300ABF08B /* bottomNavigation.swift in Sources */,
+				8C5C6B802AF4F1EB00ABF08B /* lottieLoading.swift in Sources */,
 				8CE8F09D2AEFBED200D1F6D7 /* widgetViewController.swift in Sources */,
 				8C4B0F062AEECE74003A4C9F /* ContextView.swift in Sources */,
+				8C5C6B7A2AF4EEA300ABF08B /* lottieView.swift in Sources */,
 				8CE8F0A32AEFD06800D1F6D7 /* ToDoListView.swift in Sources */,
 				8C4B0F082AEEE3A7003A4C9F /* facebookHome.swift in Sources */,
 				8C5C6B752AF4DAC300ABF08B /* signUpForm.swift in Sources */,
@@ -446,6 +462,7 @@
 				CODE_SIGN_ENTITLEMENTS = swiftuilearning/swiftuilearning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuilearning/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -477,6 +494,7 @@
 				CODE_SIGN_ENTITLEMENTS = swiftuilearning/swiftuilearning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuilearning/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -588,6 +606,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8C5C6B782AF4EDE300ABF08B /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.3;
+			};
+		};
 		8CC8F97E2AEFA94F0042A0A2 /* XCRemoteSwiftPackageReference "ChartView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AppPear/ChartView";
@@ -599,6 +625,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8C5C6B7B2AF4F03400ABF08B /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C5C6B782AF4EDE300ABF08B /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
 		8CC8F97F2AEFA94F0042A0A2 /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8CC8F97E2AEFA94F0042A0A2 /* XCRemoteSwiftPackageReference "ChartView" */;
