@@ -22,6 +22,8 @@
 		8CC8F97B2AEF96920042A0A2 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8F97A2AEF96920042A0A2 /* AppStore.swift */; };
 		8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */; };
 		8CC8F9802AEFA94F0042A0A2 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 8CC8F97F2AEFA94F0042A0A2 /* SwiftUICharts */; };
+		8CCEBF682AF6AF18009D43E5 /* imagesGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCEBF672AF6AF18009D43E5 /* imagesGallery.swift */; };
+		8CCEBF6A2AF6B0B5009D43E5 /* SwURL in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCEBF692AF6B0B5009D43E5 /* SwURL */; };
 		8CE8F0862AEFB14E00D1F6D7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE8F0852AEFB14D00D1F6D7 /* WidgetKit.framework */; };
 		8CE8F0882AEFB14E00D1F6D7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE8F0872AEFB14E00D1F6D7 /* SwiftUI.framework */; };
 		8CE8F08B2AEFB14E00D1F6D7 /* My_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F08A2AEFB14E00D1F6D7 /* My_WidgetBundle.swift */; };
@@ -74,6 +76,7 @@
 		8C5C6B812AF4F2EB00ABF08B /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = loading.json; path = ../../../../Downloads/loading.json; sourceTree = "<group>"; };
 		8CC8F97A2AEF96920042A0A2 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartsView.swift; sourceTree = "<group>"; };
+		8CCEBF672AF6AF18009D43E5 /* imagesGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagesGallery.swift; sourceTree = "<group>"; };
 		8CE8F0832AEFB14D00D1F6D7 /* My WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "My WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE8F0852AEFB14D00D1F6D7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		8CE8F0872AEFB14E00D1F6D7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -95,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CCEBF6A2AF6B0B5009D43E5 /* SwURL in Frameworks */,
 				8CC8F9802AEFA94F0042A0A2 /* SwiftUICharts in Frameworks */,
 				8C5C6B7C2AF4F03400ABF08B /* Lottie in Frameworks */,
 			);
@@ -152,6 +156,7 @@
 				8C5C6B762AF4E6C300ABF08B /* bottomNavigation.swift */,
 				8C5C6B792AF4EEA300ABF08B /* lottieView.swift */,
 				8C5C6B7F2AF4F1EB00ABF08B /* lottieLoading.swift */,
+				8CCEBF672AF6AF18009D43E5 /* imagesGallery.swift */,
 			);
 			path = swiftuilearning;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 			packageProductDependencies = (
 				8CC8F97F2AEFA94F0042A0A2 /* SwiftUICharts */,
 				8C5C6B7B2AF4F03400ABF08B /* Lottie */,
+				8CCEBF692AF6B0B5009D43E5 /* SwURL */,
 			);
 			productName = swiftuilearning;
 			productReference = 8C4B0EE82AEECC28003A4C9F /* swiftuilearning.app */;
@@ -259,6 +265,7 @@
 			packageReferences = (
 				8CC8F97E2AEFA94F0042A0A2 /* XCRemoteSwiftPackageReference "ChartView" */,
 				8C5C6B782AF4EDE300ABF08B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				8CCEBF662AF6AEDD009D43E5 /* XCRemoteSwiftPackageReference "SwURL" */,
 			);
 			productRefGroup = 8C4B0EE92AEECC28003A4C9F /* Products */;
 			projectDirPath = "";
@@ -307,6 +314,7 @@
 				8C5C6B752AF4DAC300ABF08B /* signUpForm.swift in Sources */,
 				8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */,
 				8C4B0EEC2AEECC28003A4C9F /* swiftuilearningApp.swift in Sources */,
+				8CCEBF682AF6AF18009D43E5 /* imagesGallery.swift in Sources */,
 				8CE8F09F2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift in Sources */,
 				8CC8F97B2AEF96920042A0A2 /* AppStore.swift in Sources */,
 			);
@@ -622,6 +630,14 @@
 				minimumVersion = 1.5.5;
 			};
 		};
+		8CCEBF662AF6AEDD009D43E5 /* XCRemoteSwiftPackageReference "SwURL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cmtrounce/SwURL";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -634,6 +650,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8CC8F97E2AEFA94F0042A0A2 /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
+		};
+		8CCEBF692AF6B0B5009D43E5 /* SwURL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCEBF662AF6AEDD009D43E5 /* XCRemoteSwiftPackageReference "SwURL" */;
+			productName = SwURL;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

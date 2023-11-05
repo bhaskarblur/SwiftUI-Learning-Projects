@@ -17,6 +17,15 @@
         "revision" : "45517c3cfec9469bbdd4f86e32393c28ae9df0bc",
         "version" : "4.3.3"
       }
+    },
+    {
+      "identity" : "swurl",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cmtrounce/SwURL",
+      "state" : {
+        "revision" : "a3031159fde503989b3d83b514d24293d606b89d",
+        "version" : "0.6.0"
+      }
     }
   ],
   "version" : 2
