@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "concentriconboarding",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/exyte/ConcentricOnboarding",
+      "state" : {
+        "revision" : "2c29c123913f6d024b92535f51b20bf99cb6f059",
+        "version" : "1.0.5"
+      }
+    },
+    {
       "identity" : "lottie-ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/airbnb/lottie-ios",

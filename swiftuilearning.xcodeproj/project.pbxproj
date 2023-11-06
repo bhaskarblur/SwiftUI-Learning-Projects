@@ -24,6 +24,10 @@
 		8CC8F9802AEFA94F0042A0A2 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 8CC8F97F2AEFA94F0042A0A2 /* SwiftUICharts */; };
 		8CCEBF682AF6AF18009D43E5 /* imagesGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCEBF672AF6AF18009D43E5 /* imagesGallery.swift */; };
 		8CCEBF6A2AF6B0B5009D43E5 /* SwURL in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCEBF692AF6B0B5009D43E5 /* SwURL */; };
+		8CE2DC772AF91BD2000316F8 /* userOnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2DC762AF91BD2000316F8 /* userOnboardingScreen.swift */; };
+		8CE2DC792AF91C29000316F8 /* ConcentricOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 8CE2DC782AF91C29000316F8 /* ConcentricOnboarding */; };
+		8CE2DC7B2AF91EEC000316F8 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2DC7A2AF91EEC000316F8 /* MockData.swift */; };
+		8CE2DC7D2AF91EFF000316F8 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2DC7C2AF91EFF000316F8 /* PageView.swift */; };
 		8CE8F0862AEFB14E00D1F6D7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE8F0852AEFB14D00D1F6D7 /* WidgetKit.framework */; };
 		8CE8F0882AEFB14E00D1F6D7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE8F0872AEFB14E00D1F6D7 /* SwiftUI.framework */; };
 		8CE8F08B2AEFB14E00D1F6D7 /* My_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F08A2AEFB14E00D1F6D7 /* My_WidgetBundle.swift */; };
@@ -77,6 +81,9 @@
 		8CC8F97A2AEF96920042A0A2 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartsView.swift; sourceTree = "<group>"; };
 		8CCEBF672AF6AF18009D43E5 /* imagesGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagesGallery.swift; sourceTree = "<group>"; };
+		8CE2DC762AF91BD2000316F8 /* userOnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userOnboardingScreen.swift; sourceTree = "<group>"; };
+		8CE2DC7A2AF91EEC000316F8 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		8CE2DC7C2AF91EFF000316F8 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		8CE8F0832AEFB14D00D1F6D7 /* My WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "My WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE8F0852AEFB14D00D1F6D7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		8CE8F0872AEFB14E00D1F6D7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -101,6 +108,7 @@
 				8CCEBF6A2AF6B0B5009D43E5 /* SwURL in Frameworks */,
 				8CC8F9802AEFA94F0042A0A2 /* SwiftUICharts in Frameworks */,
 				8C5C6B7C2AF4F03400ABF08B /* Lottie in Frameworks */,
+				8CE2DC792AF91C29000316F8 /* ConcentricOnboarding in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +165,9 @@
 				8C5C6B792AF4EEA300ABF08B /* lottieView.swift */,
 				8C5C6B7F2AF4F1EB00ABF08B /* lottieLoading.swift */,
 				8CCEBF672AF6AF18009D43E5 /* imagesGallery.swift */,
+				8CE2DC762AF91BD2000316F8 /* userOnboardingScreen.swift */,
+				8CE2DC7A2AF91EEC000316F8 /* MockData.swift */,
+				8CE2DC7C2AF91EFF000316F8 /* PageView.swift */,
 			);
 			path = swiftuilearning;
 			sourceTree = "<group>";
@@ -213,6 +224,7 @@
 				8CC8F97F2AEFA94F0042A0A2 /* SwiftUICharts */,
 				8C5C6B7B2AF4F03400ABF08B /* Lottie */,
 				8CCEBF692AF6B0B5009D43E5 /* SwURL */,
+				8CE2DC782AF91C29000316F8 /* ConcentricOnboarding */,
 			);
 			productName = swiftuilearning;
 			productReference = 8C4B0EE82AEECC28003A4C9F /* swiftuilearning.app */;
@@ -266,6 +278,7 @@
 				8CC8F97E2AEFA94F0042A0A2 /* XCRemoteSwiftPackageReference "ChartView" */,
 				8C5C6B782AF4EDE300ABF08B /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				8CCEBF662AF6AEDD009D43E5 /* XCRemoteSwiftPackageReference "SwURL" */,
+				8CE2DC752AF91BA0000316F8 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */,
 			);
 			productRefGroup = 8C4B0EE92AEECC28003A4C9F /* Products */;
 			projectDirPath = "";
@@ -305,10 +318,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5C6B772AF4E6C300ABF08B /* bottomNavigation.swift in Sources */,
+				8CE2DC7D2AF91EFF000316F8 /* PageView.swift in Sources */,
 				8C5C6B802AF4F1EB00ABF08B /* lottieLoading.swift in Sources */,
 				8CE8F09D2AEFBED200D1F6D7 /* widgetViewController.swift in Sources */,
 				8C4B0F062AEECE74003A4C9F /* ContextView.swift in Sources */,
+				8CE2DC7B2AF91EEC000316F8 /* MockData.swift in Sources */,
 				8C5C6B7A2AF4EEA300ABF08B /* lottieView.swift in Sources */,
+				8CE2DC772AF91BD2000316F8 /* userOnboardingScreen.swift in Sources */,
 				8CE8F0A32AEFD06800D1F6D7 /* ToDoListView.swift in Sources */,
 				8C4B0F082AEEE3A7003A4C9F /* facebookHome.swift in Sources */,
 				8C5C6B752AF4DAC300ABF08B /* signUpForm.swift in Sources */,
@@ -638,6 +654,14 @@
 				minimumVersion = 0.6.0;
 			};
 		};
+		8CE2DC752AF91BA0000316F8 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ConcentricOnboarding";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -655,6 +679,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8CCEBF662AF6AEDD009D43E5 /* XCRemoteSwiftPackageReference "SwURL" */;
 			productName = SwURL;
+		};
+		8CE2DC782AF91C29000316F8 /* ConcentricOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CE2DC752AF91BA0000316F8 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */;
+			productName = ConcentricOnboarding;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
