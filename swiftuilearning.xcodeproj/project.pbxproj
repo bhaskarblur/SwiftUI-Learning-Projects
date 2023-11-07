@@ -43,6 +43,7 @@
 		8CEF1D6E2AFA401F0099A9A9 /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 8CEF1D6D2AFA401F0099A9A9 /* ActivityIndicatorView */; };
 		8CEF1D702AFA4EAE0099A9A9 /* popupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF1D6F2AFA4EAE0099A9A9 /* popupView.swift */; };
 		8CEF1D732AFA4F0D0099A9A9 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 8CEF1D722AFA4F0D0099A9A9 /* PopupView */; };
+		8CEF1D752AFA54970099A9A9 /* settingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF1D742AFA54970099A9A9 /* settingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,7 @@
 		8CE8F0A22AEFD06800D1F6D7 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		8CEF1D6A2AFA3F840099A9A9 /* customLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customLoading.swift; sourceTree = "<group>"; };
 		8CEF1D6F2AFA4EAE0099A9A9 /* popupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupView.swift; sourceTree = "<group>"; };
+		8CEF1D742AFA54970099A9A9 /* settingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				8CE2DC7C2AF91EFF000316F8 /* PageView.swift */,
 				8CEF1D6A2AFA3F840099A9A9 /* customLoading.swift */,
 				8CEF1D6F2AFA4EAE0099A9A9 /* popupView.swift */,
+				8CEF1D742AFA54970099A9A9 /* settingsView.swift */,
 			);
 			path = swiftuilearning;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */,
 				8C4B0EEC2AEECC28003A4C9F /* swiftuilearningApp.swift in Sources */,
 				8CCEBF682AF6AF18009D43E5 /* imagesGallery.swift in Sources */,
+				8CEF1D752AFA54970099A9A9 /* settingsView.swift in Sources */,
 				8CE8F09F2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift in Sources */,
 				8CC8F97B2AEF96920042A0A2 /* AppStore.swift in Sources */,
 			);
