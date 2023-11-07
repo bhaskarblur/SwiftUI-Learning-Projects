@@ -19,6 +19,9 @@
 		8C5C6B7C2AF4F03400ABF08B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8C5C6B7B2AF4F03400ABF08B /* Lottie */; };
 		8C5C6B802AF4F1EB00ABF08B /* lottieLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C6B7F2AF4F1EB00ABF08B /* lottieLoading.swift */; };
 		8C5C6B822AF4F2EB00ABF08B /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C5C6B812AF4F2EB00ABF08B /* loading.json */; };
+		8C70F9302AFAB76700C6C5B6 /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C70F92F2AFAB76700C6C5B6 /* mapView.swift */; };
+		8C70F9322AFAB93700C6C5B6 /* mapViewImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C70F9312AFAB93700C6C5B6 /* mapViewImpl.swift */; };
+		8C70F9342AFAC0CF00C6C5B6 /* SideMenuImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C70F9332AFAC0CF00C6C5B6 /* SideMenuImpl.swift */; };
 		8CC8F97B2AEF96920042A0A2 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8F97A2AEF96920042A0A2 /* AppStore.swift */; };
 		8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */; };
 		8CC8F9802AEFA94F0042A0A2 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 8CC8F97F2AEFA94F0042A0A2 /* SwiftUICharts */; };
@@ -83,6 +86,9 @@
 		8C5C6B792AF4EEA300ABF08B /* lottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottieView.swift; sourceTree = "<group>"; };
 		8C5C6B7F2AF4F1EB00ABF08B /* lottieLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottieLoading.swift; sourceTree = "<group>"; };
 		8C5C6B812AF4F2EB00ABF08B /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = loading.json; path = ../../../../Downloads/loading.json; sourceTree = "<group>"; };
+		8C70F92F2AFAB76700C6C5B6 /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
+		8C70F9312AFAB93700C6C5B6 /* mapViewImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewImpl.swift; sourceTree = "<group>"; };
+		8C70F9332AFAC0CF00C6C5B6 /* SideMenuImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuImpl.swift; sourceTree = "<group>"; };
 		8CC8F97A2AEF96920042A0A2 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		8CC8F97C2AEFA8D90042A0A2 /* chartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartsView.swift; sourceTree = "<group>"; };
 		8CCEBF672AF6AF18009D43E5 /* imagesGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagesGallery.swift; sourceTree = "<group>"; };
@@ -181,6 +187,9 @@
 				8CEF1D6A2AFA3F840099A9A9 /* customLoading.swift */,
 				8CEF1D6F2AFA4EAE0099A9A9 /* popupView.swift */,
 				8CEF1D742AFA54970099A9A9 /* settingsView.swift */,
+				8C70F92F2AFAB76700C6C5B6 /* mapView.swift */,
+				8C70F9312AFAB93700C6C5B6 /* mapViewImpl.swift */,
+				8C70F9332AFAC0CF00C6C5B6 /* SideMenuImpl.swift */,
 			);
 			path = swiftuilearning;
 			sourceTree = "<group>";
@@ -337,6 +346,7 @@
 				8C5C6B772AF4E6C300ABF08B /* bottomNavigation.swift in Sources */,
 				8CEF1D702AFA4EAE0099A9A9 /* popupView.swift in Sources */,
 				8CE2DC7D2AF91EFF000316F8 /* PageView.swift in Sources */,
+				8C70F9342AFAC0CF00C6C5B6 /* SideMenuImpl.swift in Sources */,
 				8C5C6B802AF4F1EB00ABF08B /* lottieLoading.swift in Sources */,
 				8CE8F09D2AEFBED200D1F6D7 /* widgetViewController.swift in Sources */,
 				8C4B0F062AEECE74003A4C9F /* ContextView.swift in Sources */,
@@ -347,12 +357,14 @@
 				8C4B0F082AEEE3A7003A4C9F /* facebookHome.swift in Sources */,
 				8C5C6B752AF4DAC300ABF08B /* signUpForm.swift in Sources */,
 				8CEF1D6B2AFA3F840099A9A9 /* customLoading.swift in Sources */,
+				8C70F9302AFAB76700C6C5B6 /* mapView.swift in Sources */,
 				8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */,
 				8C4B0EEC2AEECC28003A4C9F /* swiftuilearningApp.swift in Sources */,
 				8CCEBF682AF6AF18009D43E5 /* imagesGallery.swift in Sources */,
 				8CEF1D752AFA54970099A9A9 /* settingsView.swift in Sources */,
 				8CE8F09F2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift in Sources */,
 				8CC8F97B2AEF96920042A0A2 /* AppStore.swift in Sources */,
+				8C70F9322AFAB93700C6C5B6 /* mapViewImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
