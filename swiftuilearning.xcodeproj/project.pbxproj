@@ -39,6 +39,10 @@
 		8CE8F09D2AEFBED200D1F6D7 /* widgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F09C2AEFBED200D1F6D7 /* widgetViewController.swift */; };
 		8CE8F09F2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F09E2AEFC15300D1F6D7 /* SwiftWidgetScreen.swift */; };
 		8CE8F0A32AEFD06800D1F6D7 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8F0A22AEFD06800D1F6D7 /* ToDoListView.swift */; };
+		8CEF1D6B2AFA3F840099A9A9 /* customLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF1D6A2AFA3F840099A9A9 /* customLoading.swift */; };
+		8CEF1D6E2AFA401F0099A9A9 /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 8CEF1D6D2AFA401F0099A9A9 /* ActivityIndicatorView */; };
+		8CEF1D702AFA4EAE0099A9A9 /* popupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF1D6F2AFA4EAE0099A9A9 /* popupView.swift */; };
+		8CEF1D732AFA4F0D0099A9A9 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 8CEF1D722AFA4F0D0099A9A9 /* PopupView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +102,8 @@
 		8CE8F0A02AEFC8FC00D1F6D7 /* swiftuilearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftuilearning.entitlements; sourceTree = "<group>"; };
 		8CE8F0A12AEFC92200D1F6D7 /* My WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "My WidgetExtension.entitlements"; sourceTree = "<group>"; };
 		8CE8F0A22AEFD06800D1F6D7 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		8CEF1D6A2AFA3F840099A9A9 /* customLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customLoading.swift; sourceTree = "<group>"; };
+		8CEF1D6F2AFA4EAE0099A9A9 /* popupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CEF1D732AFA4F0D0099A9A9 /* PopupView in Frameworks */,
+				8CEF1D6E2AFA401F0099A9A9 /* ActivityIndicatorView in Frameworks */,
 				8CCEBF6A2AF6B0B5009D43E5 /* SwURL in Frameworks */,
 				8CC8F9802AEFA94F0042A0A2 /* SwiftUICharts in Frameworks */,
 				8C5C6B7C2AF4F03400ABF08B /* Lottie in Frameworks */,
@@ -168,6 +176,8 @@
 				8CE2DC762AF91BD2000316F8 /* userOnboardingScreen.swift */,
 				8CE2DC7A2AF91EEC000316F8 /* MockData.swift */,
 				8CE2DC7C2AF91EFF000316F8 /* PageView.swift */,
+				8CEF1D6A2AFA3F840099A9A9 /* customLoading.swift */,
+				8CEF1D6F2AFA4EAE0099A9A9 /* popupView.swift */,
 			);
 			path = swiftuilearning;
 			sourceTree = "<group>";
@@ -225,6 +235,8 @@
 				8C5C6B7B2AF4F03400ABF08B /* Lottie */,
 				8CCEBF692AF6B0B5009D43E5 /* SwURL */,
 				8CE2DC782AF91C29000316F8 /* ConcentricOnboarding */,
+				8CEF1D6D2AFA401F0099A9A9 /* ActivityIndicatorView */,
+				8CEF1D722AFA4F0D0099A9A9 /* PopupView */,
 			);
 			productName = swiftuilearning;
 			productReference = 8C4B0EE82AEECC28003A4C9F /* swiftuilearning.app */;
@@ -279,6 +291,8 @@
 				8C5C6B782AF4EDE300ABF08B /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				8CCEBF662AF6AEDD009D43E5 /* XCRemoteSwiftPackageReference "SwURL" */,
 				8CE2DC752AF91BA0000316F8 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */,
+				8CEF1D6C2AFA400F0099A9A9 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+				8CEF1D712AFA4EFF0099A9A9 /* XCRemoteSwiftPackageReference "PopupView" */,
 			);
 			productRefGroup = 8C4B0EE92AEECC28003A4C9F /* Products */;
 			projectDirPath = "";
@@ -318,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5C6B772AF4E6C300ABF08B /* bottomNavigation.swift in Sources */,
+				8CEF1D702AFA4EAE0099A9A9 /* popupView.swift in Sources */,
 				8CE2DC7D2AF91EFF000316F8 /* PageView.swift in Sources */,
 				8C5C6B802AF4F1EB00ABF08B /* lottieLoading.swift in Sources */,
 				8CE8F09D2AEFBED200D1F6D7 /* widgetViewController.swift in Sources */,
@@ -328,6 +343,7 @@
 				8CE8F0A32AEFD06800D1F6D7 /* ToDoListView.swift in Sources */,
 				8C4B0F082AEEE3A7003A4C9F /* facebookHome.swift in Sources */,
 				8C5C6B752AF4DAC300ABF08B /* signUpForm.swift in Sources */,
+				8CEF1D6B2AFA3F840099A9A9 /* customLoading.swift in Sources */,
 				8CC8F97D2AEFA8D90042A0A2 /* chartsView.swift in Sources */,
 				8C4B0EEC2AEECC28003A4C9F /* swiftuilearningApp.swift in Sources */,
 				8CCEBF682AF6AF18009D43E5 /* imagesGallery.swift in Sources */,
@@ -662,6 +678,22 @@
 				minimumVersion = 1.0.5;
 			};
 		};
+		8CEF1D6C2AFA400F0099A9A9 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ActivityIndicatorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+		8CEF1D712AFA4EFF0099A9A9 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -684,6 +716,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8CE2DC752AF91BA0000316F8 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */;
 			productName = ConcentricOnboarding;
+		};
+		8CEF1D6D2AFA401F0099A9A9 /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CEF1D6C2AFA400F0099A9A9 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+		8CEF1D722AFA4F0D0099A9A9 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CEF1D712AFA4EFF0099A9A9 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
